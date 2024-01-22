@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      charset="utf-8"
+    ></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- HOME section -->
+    <section id="home">
+      <div class="home-screen">
+        <div
+          class="home-overlay d-flex flex-column justify-content-center align-items-center text-light h-100"
+        >
+          <h1>Egyption Party</h1>
+          <p>lets have fun</p>
+        </div>
+        <nav id="js-nav" class="nav">
+          <ul
+            class="navigation list-unstyled list text-center mx-auto mt-4 pt-5"
+          >
+            <li><a class="linkNav" href="#home">Home</a></li>
+            <li><a class="linkNav" href="#details">Details</a></li>
+            <li><a class="linkNav" href="#duration">Duration</a></li>
+            <li><a class="linkNav" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Hamburger Button -->
+
+        <a id="js-hamburger" class="hamburger" type="button">
+          <span id="js-top-line" class="top-line"></span>
+
+          <span id="js-center-line" class="center-line"></span>
+
+          <span id="js-bottom-line" class="bottom-line"></span>
+        </a>
+      </div>
+    </section>
+    <!-- Details Or Accordion section -->
+    <section id="details">
+      <div class="accordion mx-auto pt-5">
+        <div class="accordion-item">
+          <div class="item-header">
+            <h4 class="title">First singer</h4>
+          </div>
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad magnam
+            obcaecati atque! Quia ipsum temporibus distinctio amet
+            necessitatibus assumenda tempora, nam rerum eum praesentium ducimus
+            molestiae dicta voluptas consectetur quos.
+          </p>
+        </div>
+
+        <div class="accordion-item">
+          <div class="item-header">
+            <h4 class="title">Second singer</h4>
+          </div>
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad magnam
+            obcaecati atque! Quia ipsum temporibus distinctio amet
+            necessitatibus assumenda tempora, nam rerum eum praesentium ducimus
+            molestiae dicta voluptas consectetur quos.
+          </p>
+        </div>
+
+        <div class="accordion-item">
+          <div class="item-header">
+            <h4 class="title">Third singer</h4>
+          </div>
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad magnam
+            obcaecati atque! Quia ipsum temporibus distinctio amet
+            necessitatibus assumenda tempora, nam rerum eum praesentium ducimus
+            molestiae dicta voluptas consectetur quos.
+          </p>
+        </div>
+
+        <div class="accordion-item">
+          <div class="item-header">
+            <h4 class="title">Forth singer</h4>
+          </div>
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad magnam
+            obcaecati atque! Quia ipsum temporibus distinctio amet
+            necessitatibus assumenda tempora, nam rerum eum praesentium ducimus
+            molestiae dicta voluptas consectetur quos.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="duration">
+      <div class="con">
+        <div class="duration-overlay">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="time-box">
+                  <span id="days"></span>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="time-box">
+                  <span id="hours"></span>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="time-box">
+                  <span id="minutes"></span>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="time-box">
+                  <span id="seconds"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="pt-5">
+      <div class="container">
+        <div class="contact-header">
+          <h2>Join Us</h2>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="contact-info">
+              <h3><strong>CONTACT INFO</strong></h3>
+              <p>
+                Why you should hire me writeup Lorem ipsum dolor sit amet,
+                consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                Aenean massa. Cum sociis natoque nascetur ridiculus mus.
+              </p>
+              <div class="icons">
+                <p>
+                  <i class="fa fa-map-marker"></i> New Street 22545, Nexa Road,
+                  New York City, USA
+                </p>
+                <p class="text-danger">
+                  <i class="fa fa-envelope"></i> hello@uigrid.com
+                </p>
+                <p><i class="fa fa-phone"></i> 001-000-000-000</p>
+              </div>
+              <div class="social-list mt-4">
+                <i class="fab fa-twitter fa-fw"></i>
+                <i class="fab fa-facebook-f fa-fw"></i>
+                <i class="fab fa-instagram fa-fw"></i>
+                <i class="fab fa-dribbble fa-fw"></i>
+                <i class="fab fa-pinterest fa-fw"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <form>
+              <input
+                class="form-control input-lg"
+                type="text"
+                placeholder="Enter Name"
+              />
+              <input
+                class="form-control input-lg"
+                type="email"
+                placeholder="Enter Email"
+              />
+              <textarea
+                id="contact-text"
+                class="form-control input-lg"
+                placeholder="Enter Message"
+              ></textarea>
+              <span id="chars"></span>
+              <button class="btn-send">SEND MESSAGE</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
